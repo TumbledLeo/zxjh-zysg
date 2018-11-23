@@ -1,0 +1,1 @@
+$(function(){var i=!0;$(".p a").click(function(){i=i?($(this).siblings(".show").fadeIn(),$(this).find(".play").attr("src","images/join33.png"),!1):($(this).siblings(".show").fadeOut(),$(this).find(".play").attr("src","images/join3.png"),!0)})});

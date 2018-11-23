@@ -1,0 +1,134 @@
+.banner{
+  width:100%;
+  height:auto;
+  margin-bottom:30px;
+}
+.banner h2{
+  margin-top:60px;
+}
+.content{
+  width:640px;
+  margin:0 auto;
+  text-align: center;
+  color:#3f3f3f;
+  font-size:14px;
+  line-height:26px;
+}
+.b{
+  border-right:1px solid #000;
+}
+.full_mode_tab .tabs .tab::after {
+  background: url(../images/nav_cur.png) center center no-repeat;
+  height:7px;
+  margin-left: -27.5px;
+}
+.full_mode_tab .tabs .tab.cur::after, .full_mode_tab .tabs .tab:hover::after {
+
+  opacity: 1;
+  width: 55px;
+
+}
+.tabContents{
+  border-top:1px solid #dddddd;
+}
+.full_mode_tab .tabContent,.full_mode_tab .tabContents{
+  height:auto;
+  position: relative;
+}
+.tabContents span{
+  font-size: 16px;
+}
+.tabContents .p{
+  height:70px;
+  line-height:70px;
+  border-bottom:1px solid #dddddd;
+}
+.tabContents li a{
+  display:inline-block;
+}
+.a1{
+  margin-right:350px;
+}
+.a2{
+  margin-right:180px;
+}
+.a3{
+  margin-right:120px;
+}
+.a4{
+  margin-right:96px;
+}
+.a5{
+  margin-right:42px;
+}
+.wrap{
+  margin:60px auto;
+}
+
+.show{
+  height:auto;
+  position: relative;
+  background:#f6f7fb;
+  top:-2px;
+  color:#7d7d7e;
+  display:none;
+}
+.show h6{
+  margin-bottom:30px;
+}
+.show h6 span{
+  font-weight: normal;
+  margin-left:-6px;
+  color:#555555
+}
+.show h6  img{
+  margin-left:40px;
+}
+.show h6 strong{
+  position: absolute;
+  font-size:24px;
+  color:#fff;
+  left:70px;
+}
+ol {
+  text-align: center;
+}
+ol li{
+  float:left;
+  margin:10px 5%;
+  width:23.3%;
+  text-align: left;
+}
+.ll{
+  margin-right:40px;
+}
+.bo{
+  margin-top:60px;
+  border-top:1px solid #dddddd;
+}
+.tabContents  .bo{
+  width:1100px;
+}
+.tabContents  .bo h3{
+  font-size: 24px;
+  margin:20px 0 ;
+}
+.tabContents  .bo p{
+  font-size: 16px;
+  margin:0 auto;
+  border:none;
+  height:30px;
+  line-height: 30px;
+}
+.tabContents  .bo p span{
+  display:block;
+  margin:15px 0;
+}
+.tabContents  .bo button{
+  border:none;
+  width:266px;
+  height:50px;
+  cursor: pointer;
+  float: right;
+  margin:40px 0;
+}

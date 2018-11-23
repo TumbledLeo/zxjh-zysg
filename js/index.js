@@ -1,0 +1,1 @@
+"use strict";$(function(){new Swiper(".swiper-container",{pagination:".swiper-pagination",paginationClickable:".swiper-pagination",nextButton:".swiper-button-next",loop:true,prevButton:".swiper-button-prev",spaceBetween:150})});
